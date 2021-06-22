@@ -19,8 +19,7 @@ DATA_DIR=/path/to/data/dir
 ```
 
 ### Fine-tining
-
-We give the instruction to fine-tune a pre-trained LV-BERT-small (13M parameters) on GLUE. All models of different are provided this [Google Drive folder](https://drive.google.com/drive/folders/1R4HVVAXhIaLn-w9o6CQ3WfaWWAwtE7bo?usp=sharing). The models are pre-trained 1M steps with sequence length 128 to save compute. `*_seq512` named models are trained for more 100K steps with sequence length 512 whichs are used for long-sequence tasks like SQuAD. See our paper for more details on model performance. 
+We give the instruction to fine-tune a pre-trained LV-BERT-small (13M parameters) on GLUE. You can refer to this [Google Colab notebook](https://colab.research.google.com/drive/1q1Exfs4kg8aRzewLH_imMF1eLdJm__e8?usp=sharing) for a quick example. All models of different are provided this [Google Drive folder](https://drive.google.com/drive/folders/1R4HVVAXhIaLn-w9o6CQ3WfaWWAwtE7bo?usp=sharing). The models are pre-trained 1M steps with sequence length 128 to save compute. `*_seq512` named models are trained for more 100K steps with sequence length 512 whichs are used for long-sequence tasks like SQuAD. See our paper for more details on model performance. 
 
 1. Create your data directory.
 ```bash

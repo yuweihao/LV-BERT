@@ -5,7 +5,7 @@ MODEL_NAME=lv-bert_small
 
 python3 run_finetuning.py --data-dir $DATA_DIR --model-name $MODEL_NAME \
 --hparams '{"model_size": "small", "max_seq_length": 128, 
-"learning_rate": 3e-4, "task_names": ["cola"], "num_trials": 10, 
+"learning_rate": 3e-4, "task_names": ["cola"], "num_trials": 1, 
 "custom_layer_list": [0, 0, 1, 2, 2, 1, 0, 2, 2, 1, 0, 0, 1, 2, 0, 2, 1, 0, 2, 0, 1, 1, 2, 1]}'
 
 # "task_names" can be set in ["cola", "mrpc", "mnli", "sst", "rte", "qnli", "qqp", "sts"]

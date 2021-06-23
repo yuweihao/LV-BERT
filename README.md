@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this repo, we introduce **LV-BERT** by exploiting layer variety for BERT. For detailed description and experimental results, please refer to our paper LV-BERT: Exploiting Layer Variety for BERT (Findings of ACL 2021)
+In this repo, we introduce **LV-BERT** by exploiting layer variety for BERT. For detailed description and experimental results, please refer to our paper [LV-BERT: Exploiting Layer Variety for BERT (Findings of ACL 2021)](https://arxiv.org/abs/2106.11740).
 
 
 ## Requirements

@@ -83,3 +83,6 @@ bash pretrain.sh $DATA_DIR
 ### Reference
 
 This repo is based on the repo [ELECTRA](https://github.com/google-research/electra).
+
+## Acknowledgment
+Weihao Yu would like to thank TPU Research Cloud (TRC) program for the support of partial computational resources.
